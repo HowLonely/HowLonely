@@ -10,10 +10,10 @@
 
 ```
  ╔══════════════════════════════════════════════════════════════╗
- ║  root@howlonely:~$ ./identify.sh                            ║
- ║  > ROLE: Full Stack Developer                               ║
- ║  > LOCATION: Chile 🇨🇱                                      ║
- ║  > STATUS: Online                                           ║
+ ║  root@howlonely:~$ ./identify.sh                             ║
+ ║  > ROLE: Full Stack Developer                                ║
+ ║  > LOCATION: Chile, cl                                       ║
+ ║  > STATUS: Online                                            ║
  ╚══════════════════════════════════════════════════════════════╝
 ```
 
