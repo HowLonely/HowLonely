@@ -4,6 +4,8 @@
   <img src=".github/assets/_identify.svg" width="100%" />
 </div>
 
+<br />
+
 [![LinkedIn](https://img.shields.io/badge/-%2Fin%2Fellian--troncoso-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ellian-troncoso/)
 [![Gmail](https://img.shields.io/badge/-elliantroncoso%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:elliantroncoso@gmail.com)
 [![GitHub](https://img.shields.io/badge/-HowLonely-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HowLonely)
