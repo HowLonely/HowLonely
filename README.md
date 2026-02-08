@@ -65,29 +65,15 @@ drwxr-xr-x  2 root root  4096 Feb 08 02:00 devops
 
 <br />
 
-<table>
-<tr>
-<td>
+<div align="center">
+  <img src=".github/assets/controlflota_showcase.svg" width="100%" />
+</div>
 
-```
-┌──────────────────────────────────┐
-│ PID 1338                         │
-│ PROCESS  Control Flota           │
-│ STATUS   Running ●               │
-│ TYPE     Personal                │
-│ UPTIME   Active                  │
-└──────────────────────────────────┘
-```
+<div align="center">
 
-> Fleet management system — full stack solution built from scratch.
->
-> `Python` `Django` `TypeScript` `React` `Next.js`
->
-> [![Backend](https://img.shields.io/badge/repo--backend-00FF41?style=flat-square&logo=github&logoColor=black)](https://github.com/HowLonely/backend-control-flota) [![Frontend](https://img.shields.io/badge/repo--frontend-00FF41?style=flat-square&logo=github&logoColor=black)](https://github.com/HowLonely/frontend-control-flota)
+[![Backend](https://img.shields.io/badge/repo--backend-00FF41?style=flat-square&logo=github&logoColor=black)](https://github.com/HowLonely/backend-control-flota) [![Frontend](https://img.shields.io/badge/repo--frontend-00FF41?style=flat-square&logo=github&logoColor=black)](https://github.com/HowLonely/frontend-control-flota)
 
-</td>
-</tr>
-</table>
+</div>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=00FF41&height=2&section=header" width="100%" />
