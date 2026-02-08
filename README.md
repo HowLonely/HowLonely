@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
-
 ```
 ╔═══════════════════════════════════════════════════════════╗
 ║  root@howlonely:~# ./identify.sh                          ║
@@ -12,6 +10,8 @@
 ║  [■] THREAT LVL ... Controlled ██████████ 100%            ║
 ╚═══════════════════════════════════════════════════════════╝
 ```
+
+<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=500&lines=%24+whoami+--+HowLonely;%24+status+--+building+systems;%24+location+--+Chile+%F0%9F%87%A8%F0%9F%87%B1;%24+uptime+--+always+coding..." alt="Typing SVG" />
 
