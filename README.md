@@ -158,12 +158,6 @@ drwxr-xr-x  2 root root  4096 Feb 08 02:00 devops
 
 <img src="https://komarev.com/ghpvc/?username=HowLonely&style=flat-square&color=00FF41&label=intrusions+detected" />
 
-```
-[root@howlonely]# echo $?
-0
-[root@howlonely]# exit
-Connection to howlonely closed.
-```
 
 <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
 
