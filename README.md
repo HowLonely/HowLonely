@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=00FF41&height=1&section=header" width="100%" />
 
 ```
 ╔═══════════════════════════════════════════════════════════╗
