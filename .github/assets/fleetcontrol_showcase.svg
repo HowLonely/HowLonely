@@ -1,74 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="350" height="420" viewBox="0 0 350 420">
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="280" viewBox="0 0 700 280">
   <defs>
     <filter id="g2"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <filter id="sg2"><feGaussianBlur stdDeviation="0.8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <pattern id="sl2" width="350" height="4" patternUnits="userSpaceOnUse"><rect width="350" height="2" fill="#00FF41"/></pattern>
+    <pattern id="sl2" width="700" height="4" patternUnits="userSpaceOnUse"><rect width="700" height="2" fill="#00FF41"/></pattern>
   </defs>
 
-  <rect width="350" height="420" rx="10" fill="#0a0e14"/>
-  <rect x="1" y="1" width="348" height="418" rx="10" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.4"/>
-  <rect x="0" y="0" width="350" height="420" rx="10" fill="url(#sl2)" opacity="0.02"/>
-  <path d="M12,5 L5,5 L5,12" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.5"/>
-  <path d="M338,5 L345,5 L345,12" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.5"/>
-  <path d="M12,415 L5,415 L5,408" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.5"/>
-  <path d="M338,415 L345,415 L345,408" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.5"/>
+  <rect width="700" height="280" rx="12" fill="#0a0e14"/>
+  <rect x="1" y="1" width="698" height="278" rx="12" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.4"/>
+  <rect x="0" y="0" width="700" height="280" rx="12" fill="url(#sl2)" opacity="0.02"/>
+  <path d="M16,6 L6,6 L6,16" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.5"/>
+  <path d="M684,6 L694,6 L694,16" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.5"/>
+  <path d="M16,274 L6,274 L6,264" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.5"/>
+  <path d="M684,274 L694,274 L694,264" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.5"/>
 
   <!-- Top bar -->
-  <rect x="12" y="12" width="326" height="24" rx="4" fill="#00FF41" opacity="0.08"/>
-  <circle cx="26" cy="24" r="3.5" fill="#00FF41" opacity="0.6"/>
-  <circle cx="38" cy="24" r="3.5" fill="#00FF41" opacity="0.35"/>
-  <circle cx="50" cy="24" r="3.5" fill="#00FF41" opacity="0.15"/>
-  <text x="64" y="28" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.5">fleet-management-system</text>
-  <circle cx="284" cy="24" r="4" fill="#FFAA00" opacity="0.7"><animate attributeName="opacity" values="0.7;0.3;0.7" dur="2.5s" repeatCount="indefinite"/></circle>
-  <text x="293" y="28" font-family="'Courier New', monospace" font-size="8" fill="#FFAA00" opacity="0.5">IN DEV</text>
+  <rect x="16" y="16" width="668" height="28" rx="4" fill="#00FF41" opacity="0.08"/>
+  <circle cx="32" cy="30" r="4" fill="#00FF41" opacity="0.6"/>
+  <circle cx="46" cy="30" r="4" fill="#00FF41" opacity="0.35"/>
+  <circle cx="60" cy="30" r="4" fill="#00FF41" opacity="0.15"/>
+  <text x="82" y="35" font-family="'Courier New', monospace" font-size="12" fill="#00FF41" opacity="0.6">root@howlonely:~#</text>
+  <text x="230" y="35" font-family="'Courier New', monospace" font-size="12" fill="#00FF41" filter="url(#sg2)">cat /dev/fleet-management-system.conf</text>
 
   <!-- Title -->
-  <text x="20" y="62" font-family="'Courier New', monospace" font-size="16" fill="#00FF41" filter="url(#g2)" font-weight="bold">Fleet Management System</text>
-  <text x="20" y="78" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.35">Full stack fleet management system</text>
-
-  <!-- Type -->
-  <rect x="20" y="88" width="72" height="18" rx="3" fill="#00FF41" opacity="0.05"/>
-  <text x="56" y="100" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#00FF41" opacity="0.45">Personal</text>
-  <rect x="100" y="88" width="118" height="18" rx="3" fill="#00FF41" opacity="0.05"/>
-  <text x="159" y="100" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#00FF41" opacity="0.45">Decoupled API + SPA</text>
-  <rect x="226" y="88" width="56" height="18" rx="3" fill="#00FF41" opacity="0.05"/>
-  <text x="254" y="100" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#00FF41" opacity="0.45">JWT Auth</text>
-
-  <line x1="20" y1="116" x2="330" y2="116" stroke="#00FF41" stroke-width="0.5" opacity="0.12"/>
+  <text x="30" y="76" font-family="'Courier New', monospace" font-size="20" fill="#00FF41" filter="url(#g2)" font-weight="bold">▸ Fleet Management System</text>
+  <circle cx="555" cy="72" r="4" fill="#FFAA00" opacity="0.7"><animate attributeName="opacity" values="0.7;0.3;0.7" dur="2.5s" repeatCount="indefinite"/></circle>
+  <text x="565" y="76" font-family="'Courier New', monospace" font-size="10" fill="#FFAA00" opacity="0.5">IN DEVELOPMENT</text>
+  <text x="30" y="94" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.35">Full stack for fleet management — personal project · Decoupled REST API + SPA</text>
 
   <!-- Stack -->
-  <text x="20" y="132" font-family="'Courier New', monospace" font-size="8" fill="#00FF41" opacity="0.3">BE</text>
-  <text x="38" y="132" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.55">Python · Django · DRF</text>
-  <text x="20" y="147" font-family="'Courier New', monospace" font-size="8" fill="#00FF41" opacity="0.3">FE</text>
-  <text x="38" y="147" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.55">TypeScript · Next.js · Mantine</text>
+  <text x="30" y="116" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.3">BACKEND</text>
+  <text x="90" y="116" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.5">Python · Django · DRF · JWT</text>
+  <text x="340" y="116" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.3">FRONTEND</text>
+  <text x="405" y="116" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.5">TypeScript · Next.js · Mantine</text>
 
-  <line x1="20" y1="159" x2="330" y2="159" stroke="#00FF41" stroke-width="0.5" opacity="0.08"/>
+  <line x1="30" y1="128" x2="670" y2="128" stroke="#00FF41" stroke-width="0.5" opacity="0.12"/>
 
   <!-- Fleet -->
-  <text x="20" y="177" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" filter="url(#sg2)" font-weight="bold">🚗 Fleet Management</text>
-  <text x="25" y="192" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.45">Plate, VIN, mileage, status, QR codes</text>
-  <text x="25" y="206" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.4">Driver assignment · License validation</text>
-  <text x="25" y="220" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.4">Entry/exit log with mileage tracking</text>
+  <text x="30" y="148" font-family="'Courier New', monospace" font-size="11" fill="#00FF41" filter="url(#sg2)" font-weight="bold">🚗 Fleet Management</text>
+  <text x="210" y="148" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.45">Vehicle registry · Plate, VIN, mileage, status tracking · QR codes</text>
+  <text x="210" y="163" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.4">Driver assignment with license validation · Entry/exit log</text>
 
-  <line x1="20" y1="232" x2="330" y2="232" stroke="#00FF41" stroke-width="0.3" opacity="0.06"/>
+  <line x1="30" y1="175" x2="670" y2="175" stroke="#00FF41" stroke-width="0.3" opacity="0.08"/>
 
   <!-- Checklists -->
-  <text x="20" y="249" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" filter="url(#sg2)" font-weight="bold">📋 Inspection Checklists</text>
-  <text x="25" y="264" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.45">Templates per vehicle type</text>
-  <text x="25" y="278" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.4">Pass/fail + mandatory photos</text>
-  <text x="25" y="292" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.4">Approval: Pending → OK / Rejected</text>
+  <text x="30" y="193" font-family="'Courier New', monospace" font-size="11" fill="#00FF41" filter="url(#sg2)" font-weight="bold">📋 Inspection Checklists</text>
+  <text x="240" y="193" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.45">Template-based per vehicle type · Pass/fail + mandatory photos</text>
+  <text x="240" y="208" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.4">Approval workflow: Pending → Approved / Rejected with evidence</text>
 
-  <line x1="20" y1="304" x2="330" y2="304" stroke="#00FF41" stroke-width="0.3" opacity="0.06"/>
+  <line x1="30" y1="220" x2="670" y2="220" stroke="#00FF41" stroke-width="0.3" opacity="0.08"/>
 
   <!-- Maintenance -->
-  <text x="20" y="321" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" filter="url(#sg2)" font-weight="bold">🔧 Maintenance</text>
-  <text x="25" y="336" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.45">OT → Assign Shop → Close w/ invoice</text>
-  <text x="25" y="350" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.4">Preventive/Corrective/Emergency</text>
-  <text x="25" y="364" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.4">Scheduled programs by km or time</text>
+  <text x="30" y="238" font-family="'Courier New', monospace" font-size="11" fill="#00FF41" filter="url(#sg2)" font-weight="bold">🔧 Maintenance</text>
+  <text x="165" y="238" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.45">Work orders: preventive, corrective, emergency · Scheduled by km/time</text>
+  <text x="165" y="253" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.4">OT → Assign Shop → In Progress → Close · Provider registry · Invoices</text>
 
-  <line x1="20" y1="376" x2="330" y2="376" stroke="#00FF41" stroke-width="0.3" opacity="0.06"/>
+  <line x1="30" y1="265" x2="670" y2="265" stroke="#00FF41" stroke-width="0.3" opacity="0.08"/>
 
-  <!-- Documents -->
-  <text x="20" y="393" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" filter="url(#sg2)" font-weight="bold">📄 Documents &amp; Workers</text>
-  <text x="25" y="408" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.4">Expiration tracking · Role-based access</text>
+  <!-- Documents & Workers -->
+  <text x="30" y="276" font-family="'Courier New', monospace" font-size="11" fill="#00FF41" filter="url(#sg2)" font-weight="bold">📄 Documents &amp; Workers</text>
+  <text x="235" y="276" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.4">Expiration tracking · License validation · Role-based access</text>
 </svg>
