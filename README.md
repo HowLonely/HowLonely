@@ -1,7 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:00FF41&height=160&section=header&text=&animation=fadeIn" width="100%" />
-
+<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
 ```
 ╔═══════════════════════════════════════════════════════════╗
 ║  root@howlonely:~# ./identify.sh                          ║
