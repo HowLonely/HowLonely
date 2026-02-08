@@ -4,8 +4,6 @@
   <img src=".github/assets/_identify.svg" width="100%" />
 </div>
 
-<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
-
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=500&lines=%24+whoami+--+HowLonely;%24+status+--+building+systems;%24+location+--+Chile+%F0%9F%87%A8%F0%9F%87%B1;%24+uptime+--+always+coding..." alt="Typing SVG" />
 
 [![LinkedIn](https://img.shields.io/badge/-%2Fin%2Fellian--troncoso-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ellian-troncoso/)
@@ -166,5 +164,7 @@ drwxr-xr-x  2 root root  4096 Feb 08 02:00 devops
 [root@howlonely]# exit
 Connection to howlonely closed.
 ```
+
+<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
 
 </div>
