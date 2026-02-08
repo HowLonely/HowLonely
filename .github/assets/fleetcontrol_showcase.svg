@@ -36,10 +36,10 @@
   <circle cx="46" cy="30" r="4" fill="#00FF41" opacity="0.35"/>
   <circle cx="60" cy="30" r="4" fill="#00FF41" opacity="0.15"/>
   <text x="82" y="35" font-family="'Courier New', monospace" font-size="12" fill="#00FF41" opacity="0.6">root@howlonely:~#</text>
-  <text x="230" y="35" font-family="'Courier New', monospace" font-size="12" fill="#00FF41" filter="url(#softglow2)">cat /dev/control-flota.conf</text>
+  <text x="230" y="35" font-family="'Courier New', monospace" font-size="12" fill="#00FF41" filter="url(#softglow2)">cat /dev/fleet-management-system.conf</text>
 
   <!-- Project Title -->
-  <text x="30" y="80" font-family="'Courier New', monospace" font-size="22" fill="#00FF41" filter="url(#glow2)" font-weight="bold">▸ Control Flota</text>
+  <text x="30" y="80" font-family="'Courier New', monospace" font-size="22" fill="#00FF41" filter="url(#glow2)" font-weight="bold">▸ Fleet Management System</text>
   <text x="30" y="100" font-family="'Courier New', monospace" font-size="11" fill="#00FF41" opacity="0.4">Full stack fleet management system — built from scratch</text>
   <circle cx="558" cy="80" r="5" fill="#FFAA00" opacity="0.7">
     <animate attributeName="opacity" values="0.7;0.3;0.7" dur="2.5s" repeatCount="indefinite"/>
