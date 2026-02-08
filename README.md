@@ -1,14 +1,20 @@
 <div align="center">
 
 ```
- ██   ██  ██████  ██     ██ ██       ██████  ███    ██ ███████ ██      ██    ██ 
- ██   ██ ██    ██ ██     ██ ██      ██    ██ ████   ██ ██      ██       ██  ██  
- ███████ ██    ██ ██  █  ██ ██      ██    ██ ██ ██  ██ █████   ██        ████   
- ██   ██ ██    ██ ██ ███ ██ ██      ██    ██ ██  ██ ██ ██      ██         ██    
- ██   ██  ██████   ███ ███  ███████  ██████  ██   ████ ███████ ███████    ██    
+┌──────────────────────────────────────────────────────────────────┐
+│                                                                  │
+│   ██   ██  ██████  ██     ██ ██       ██████  ███    ██ ██████   │
+│   ██   ██ ██    ██ ██     ██ ██      ██    ██ ████   ██ ██   ██  │
+│   ███████ ██    ██ ██  █  ██ ██      ██    ██ ██ ██  ██ ██████   │
+│   ██   ██ ██    ██ ██ ███ ██ ██      ██    ██ ██  ██ ██ ██       │
+│   ██   ██  ██████   ███ ███  ███████  ██████  ██   ████ ██       │
+│                                                                  │
+│              [ FULL STACK DEVELOPER // CHILE 🇨🇱 ]               │
+│                                                                  │
+└──────────────────────────────────────────────────────────────────┘
 ```
 
-### Full Stack Developer from Chile 🇨🇱
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=500&lines=%24+whoami+--+HowLonely;%24+status+--+building+systems;%24+location+--+Chile+%F0%9F%87%A8%F0%9F%87%B1;%24+uptime+--+always+coding..." alt="Typing SVG" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ellian-troncoso/)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:elliantroncoso@gmail.com)
@@ -19,38 +25,42 @@
 ---
 
 ```js
+// $ cat ~/about.js
+
 const HowLonely = {
-    location: "Chile 🇨🇱",
+    location:       "Chile 🇨🇱",
     currentProject: "controlworldms.cl",
-    languages: ["JavaScript", "TypeScript", "PHP", "Python"],
-    frontend: ["React", "Next.js"],
-    backend: ["Django", "Laravel"],
-    devops: ["Docker", "AWS", "Git"],
-    funFact: "I code better at 2am ☕"
+    languages:      ["JavaScript", "TypeScript", "PHP", "Python"],
+    frontend:       ["React", "Next.js"],
+    backend:        ["Django", "Laravel"],
+    devops:         ["Docker", "AWS", "Git"],
+    status:         "Building systems at 2am ☕"
 };
+
+module.exports = HowLonely;
 ```
 
 ---
 
-### ⚡ Tech Arsenal
+### `> ls ./tech-arsenal/`
 
 <div align="center">
 
-**`Languages`**
+**`./languages/`**
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-**`Frameworks`**
+**`./frameworks/`**
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 
-**`DevOps`**
+**`./devops/`**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
@@ -60,7 +70,7 @@ const HowLonely = {
 
 ---
 
-### 🔭 What I'm Building
+### `> cat ./active-projects.log`
 
 <table>
 <tr>
@@ -87,28 +97,21 @@ const HowLonely = {
 
 ---
 
-### 📊 Metrics
+### `> git log --streak`
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=HowLonely&show_icons=true&hide_border=true&border_radius=12&theme=tokyonight&include_all_commits=true&rank_icon=percentile&show=prs_merged,prs_merged_percentage" height="170" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HowLonely&layout=compact&hide_border=true&border_radius=12&theme=tokyonight&langs_count=8" height="170" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=HowLonely&theme=tokyonight&hide_border=true&border_radius=12" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=HowLonely&theme=dark&hide_border=true&border_radius=12&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00FF41" />
 
 </div>
 
 ---
 
-### 📈 Contribution Graph
+### `> history --graph`
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=HowLonely&theme=tokyo-night&hide_border=true&radius=12" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=HowLonely&bg_color=0d1117&color=00FF41&line=00FF41&point=FFFFFF&area=true&area_color=00FF41&hide_border=true&radius=12" width="100%" />
 
 </div>
 
@@ -116,8 +119,10 @@ const HowLonely = {
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=HowLonely&style=flat-square&color=blue&abbreviated=true" />
+<img src="https://komarev.com/ghpvc/?username=HowLonely&style=flat-square&color=00FF41&label=profile+views" />
 
-**`> building things that matter_`**
+```
+[EXIT STATUS 0] — session active_
+```
 
 </div>
