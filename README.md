@@ -4,10 +4,10 @@
 
 ```
 ╔═══════════════════════════════════════════════════════════╗
-║  root@howlonely:~# ./identify.sh                         ║
+║  root@howlonely:~# ./identify.sh                          ║
 ║                                                           ║
 ║  [■] ROLE ......... Full Stack Developer                  ║
-║  [■] LOCATION ..... Santiago, Chile                       ║
+║  [■] LOCATION ..... Antofagasta, Chile                    ║
 ║  [■] STATUS ....... Online ●                              ║
 ║  [■] THREAT LVL ... Controlled ██████████ 100%            ║
 ╚═══════════════════════════════════════════════════════════╝
@@ -103,6 +103,8 @@ drwxr-xr-x  2 root root  4096 Feb 08 02:00 devops
 > Custom-built business management system tailored to company-specific workflows & operations.
 >
 > `PHP` `Laravel` `Blade` `AWS`
+>
+>
 
 </td>
 <td width="50%">
@@ -148,6 +150,8 @@ drwxr-xr-x  2 root root  4096 Feb 08 02:00 devops
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+<div align="center">
 
 <img src="https://komarev.com/ghpvc/?username=HowLonely&style=flat-square&color=00FF41&label=intrusions+detected" />
 
