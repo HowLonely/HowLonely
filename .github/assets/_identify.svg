@@ -85,7 +85,7 @@
   <!-- ROLE — y:110 -->
   <text x="30" y="110" font-family="'Courier New', monospace" font-size="14" fill="#00FF41" opacity="0.45">▸ ROLE</text>
   <text x="160" y="110" font-family="'Courier New', monospace" font-size="14" fill="#1a3a1a">··········</text>
-  <text x="270" y="110" font-family="'Courier New', monospace" font-size="14" fill="#00FF41" filter="url(#softglow)" font-weight="bold">Tech Lead / Full Stack</text>
+  <text x="270" y="110" font-family="'Courier New', monospace" font-size="14" fill="#00FF41" filter="url(#softglow)" font-weight="bold">Full Stack Developer</text>
 
   <!-- LOCATION — y:140 -->
   <text x="30" y="140" font-family="'Courier New', monospace" font-size="14" fill="#00FF41" opacity="0.45">▸ LOCATION</text>
