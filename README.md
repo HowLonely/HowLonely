@@ -1,7 +1,7 @@
 <div align="center">
 
 <div align="center">
-  <img src=".github/assets/profile.svg" width="100%" />
+  <img src=".github/assets/identify.svg" width="100%" />
 </div>
 
 <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
