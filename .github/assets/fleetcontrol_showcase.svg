@@ -1,17 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="700" height="280" viewBox="0 0 700 280">
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="310" viewBox="0 0 700 310">
   <defs>
     <filter id="g2"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <filter id="sg2"><feGaussianBlur stdDeviation="0.8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <pattern id="sl2" width="700" height="4" patternUnits="userSpaceOnUse"><rect width="700" height="2" fill="#00FF41"/></pattern>
   </defs>
 
-  <rect width="700" height="280" rx="12" fill="#0a0e14"/>
-  <rect x="1" y="1" width="698" height="278" rx="12" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.4"/>
-  <rect x="0" y="0" width="700" height="280" rx="12" fill="url(#sl2)" opacity="0.02"/>
+  <rect width="700" height="310" rx="12" fill="#0a0e14"/>
+  <rect x="1" y="1" width="698" height="308" rx="12" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.4"/>
+  <rect x="0" y="0" width="700" height="310" rx="12" fill="url(#sl2)" opacity="0.02"/>
   <path d="M16,6 L6,6 L6,16" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.5"/>
   <path d="M684,6 L694,6 L694,16" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.5"/>
-  <path d="M16,274 L6,274 L6,264" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.5"/>
-  <path d="M684,274 L694,274 L694,264" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.5"/>
+  <path d="M16,304 L6,304 L6,294" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.5"/>
+  <path d="M684,304 L694,304 L694,294" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.5"/>
 
   <!-- Top bar -->
   <rect x="16" y="16" width="668" height="28" rx="4" fill="#00FF41" opacity="0.08"/>
@@ -57,8 +57,8 @@
   <line x1="30" y1="265" x2="670" y2="265" stroke="#00FF41" stroke-width="0.3" opacity="0.08"/>
 
   <!-- Documents & Workers -->
-  <text x="30" y="276" font-family="'Courier New', monospace" font-size="11" fill="#00FF41" filter="url(#sg2)" font-weight="bold">📄 Documents &amp; Workers</text>
-  <text x="235" y="276" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.4">Expiration tracking · License validation · Role-based access</text>
+  <text x="30" y="283" font-family="'Courier New', monospace" font-size="11" fill="#00FF41" filter="url(#sg2)" font-weight="bold">📄 Documents &amp; Workers</text>
+  <text x="235" y="283" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.4">Expiration tracking · License validation · Role-based access</text>
 
-  <text x="30" y="365" font-family="'Courier New', monospace" font-size="8" fill="#00FF41" opacity="0.15">▸ Personal project</text>
+  <text x="30" y="302" font-family="'Courier New', monospace" font-size="8" fill="#00FF41" opacity="0.15">▸ Personal project</text>
 </svg>
