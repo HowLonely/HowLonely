@@ -1,34 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" viewBox="0 0 700 700">
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="380" viewBox="0 0 700 380">
   <defs>
-    <filter id="glow2">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="softglow2">
-      <feGaussianBlur stdDeviation="0.8" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <pattern id="scanlines2" width="700" height="4" patternUnits="userSpaceOnUse">
-      <rect width="700" height="2" fill="#00FF41"/>
-    </pattern>
+    <filter id="g2"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="sg2"><feGaussianBlur stdDeviation="0.8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="sl2" width="700" height="4" patternUnits="userSpaceOnUse"><rect width="700" height="2" fill="#00FF41"/></pattern>
   </defs>
 
-  <!-- Background -->
-  <rect width="700" height="700" rx="12" fill="#0a0e14"/>
-  <rect x="1" y="1" width="698" height="698" rx="12" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.4"/>
-  <rect x="0" y="0" width="700" height="700" rx="12" fill="url(#scanlines2)" opacity="0.02"/>
-
-  <!-- Corner decorations -->
+  <rect width="700" height="380" rx="12" fill="#0a0e14"/>
+  <rect x="1" y="1" width="698" height="378" rx="12" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.4"/>
+  <rect x="0" y="0" width="700" height="380" rx="12" fill="url(#sl2)" opacity="0.02"/>
   <path d="M16,6 L6,6 L6,16" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.5"/>
   <path d="M684,6 L694,6 L694,16" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.5"/>
-  <path d="M16,694 L6,694 L6,684" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.5"/>
-  <path d="M684,694 L694,694 L694,684" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.5"/>
+  <path d="M16,374 L6,374 L6,364" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.5"/>
+  <path d="M684,374 L694,374 L694,364" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.5"/>
 
   <!-- Top bar -->
   <rect x="16" y="16" width="668" height="28" rx="4" fill="#00FF41" opacity="0.08"/>
@@ -36,124 +19,72 @@
   <circle cx="46" cy="30" r="4" fill="#00FF41" opacity="0.35"/>
   <circle cx="60" cy="30" r="4" fill="#00FF41" opacity="0.15"/>
   <text x="82" y="35" font-family="'Courier New', monospace" font-size="12" fill="#00FF41" opacity="0.6">root@howlonely:~#</text>
-  <text x="230" y="35" font-family="'Courier New', monospace" font-size="12" fill="#00FF41" filter="url(#softglow2)">cat /dev/fleet-management-system.conf</text>
+  <text x="230" y="35" font-family="'Courier New', monospace" font-size="12" fill="#00FF41" filter="url(#sg2)">cat /dev/control-flota.conf</text>
 
-  <!-- Project Title -->
-  <text x="30" y="80" font-family="'Courier New', monospace" font-size="22" fill="#00FF41" filter="url(#glow2)" font-weight="bold">▸ Fleet Management System</text>
-  <text x="30" y="100" font-family="'Courier New', monospace" font-size="11" fill="#00FF41" opacity="0.4">Full stack fleet management system — built from scratch</text>
-  <circle cx="558" cy="80" r="5" fill="#FFAA00" opacity="0.7">
-    <animate attributeName="opacity" values="0.7;0.3;0.7" dur="2.5s" repeatCount="indefinite"/>
-  </circle>
-  <text x="568" y="84" font-family="'Courier New', monospace" font-size="10" fill="#FFAA00" opacity="0.5">IN DEVELOPMENT</text>
+  <!-- Title -->
+  <text x="30" y="76" font-family="'Courier New', monospace" font-size="20" fill="#00FF41" filter="url(#g2)" font-weight="bold">▸ Control Flota</text>
+  <circle cx="555" cy="72" r="4" fill="#FFAA00" opacity="0.7"><animate attributeName="opacity" values="0.7;0.3;0.7" dur="2.5s" repeatCount="indefinite"/></circle>
+  <text x="565" y="76" font-family="'Courier New', monospace" font-size="10" fill="#FFAA00" opacity="0.5">IN DEVELOPMENT</text>
+  <text x="30" y="94" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.35">Full stack fleet management system — personal project · Decoupled REST API + SPA</text>
 
-  <!-- Meta row -->
-  <text x="30" y="122" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.35">TYPE</text>
-  <text x="72" y="122" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.7">Personal Project</text>
-  <text x="250" y="122" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.35">ARCH</text>
-  <text x="290" y="122" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.7">Decoupled — REST API + SPA</text>
-  <text x="540" y="122" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.35">AUTH</text>
-  <text x="578" y="122" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.7">JWT (SimpleJWT)</text>
+  <!-- Stack -->
+  <text x="30" y="116" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.3">BACKEND</text>
+  <text x="90" y="116" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.5">Python · Django · DRF · JWT</text>
+  <text x="340" y="116" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.3">FRONTEND</text>
+  <text x="405" y="116" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.5">TypeScript · Next.js · Mantine</text>
 
-  <!-- Separator -->
-  <line x1="30" y1="138" x2="670" y2="138" stroke="#00FF41" stroke-width="0.5" opacity="0.15"/>
+  <line x1="30" y1="128" x2="670" y2="128" stroke="#00FF41" stroke-width="0.5" opacity="0.12"/>
 
-  <!-- Stack - Backend -->
-  <text x="30" y="160" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.35">BACKEND</text>
-  <rect x="100" y="148" width="68" height="20" rx="3" fill="#00FF41" opacity="0.06"/>
-  <text x="134" y="162" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.7">Python</text>
-  <rect x="175" y="148" width="65" height="20" rx="3" fill="#00FF41" opacity="0.06"/>
-  <text x="208" y="162" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.7">Django</text>
-  <rect x="247" y="148" width="40" height="20" rx="3" fill="#00FF41" opacity="0.06"/>
-  <text x="267" y="162" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.7">DRF</text>
-  <rect x="294" y="148" width="62" height="20" rx="3" fill="#00FF41" opacity="0.06"/>
-  <text x="325" y="162" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.7">SQLite</text>
+  <!-- Fleet -->
+  <text x="30" y="148" font-family="'Courier New', monospace" font-size="11" fill="#00FF41" filter="url(#sg2)" font-weight="bold">🚗 Fleet Management</text>
+  <text x="45" y="166" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.5">▸ Vehicle registry: plate, VIN, mileage, type, status tracking, QR generation</text>
+  <text x="45" y="181" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.5">▸ Driver assignment with license validation · Entry/exit log with mileage</text>
 
-  <!-- Stack - Frontend -->
-  <text x="30" y="184" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.35">FRONTEND</text>
-  <rect x="100" y="172" width="85" height="20" rx="3" fill="#00FF41" opacity="0.06"/>
-  <text x="143" y="186" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.7">TypeScript</text>
-  <rect x="192" y="172" width="60" height="20" rx="3" fill="#00FF41" opacity="0.06"/>
-  <text x="222" y="186" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.7">Next.js</text>
-  <rect x="259" y="172" width="68" height="20" rx="3" fill="#00FF41" opacity="0.06"/>
-  <text x="293" y="186" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.7">Mantine</text>
-  <rect x="334" y="172" width="58" height="20" rx="3" fill="#00FF41" opacity="0.06"/>
-  <text x="363" y="186" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.7">Tabler</text>
+  <line x1="30" y1="193" x2="670" y2="193" stroke="#00FF41" stroke-width="0.3" opacity="0.08"/>
 
-  <!-- Separator -->
-  <line x1="30" y1="202" x2="670" y2="202" stroke="#00FF41" stroke-width="0.5" opacity="0.15"/>
+  <!-- Checklists -->
+  <text x="30" y="211" font-family="'Courier New', monospace" font-size="11" fill="#00FF41" filter="url(#sg2)" font-weight="bold">📋 Inspection Checklists</text>
+  <text x="45" y="229" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.5">▸ Template-based per vehicle type · Pass/fail items with mandatory photos</text>
+  <text x="45" y="244" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.5">▸ Approval workflow: Pending → Approved / Rejected with evidence</text>
 
-  <!-- ═══════ FLEET MANAGEMENT ═══════ -->
-  <text x="30" y="226" font-family="'Courier New', monospace" font-size="13" fill="#00FF41" filter="url(#softglow2)" font-weight="bold">🚗 Fleet Management</text>
-  <text x="210" y="226" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.2">core module</text>
+  <line x1="30" y1="256" x2="670" y2="256" stroke="#00FF41" stroke-width="0.3" opacity="0.08"/>
 
-  <text x="45" y="248" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.55">▸ Vehicle registry with plate, VIN, mileage, type and status tracking</text>
-  <text x="45" y="265" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.55">▸ Driver assignment per vehicle with license type validation</text>
-  <text x="45" y="282" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.55">▸ Fleet log: entry/exit records with mileage, destination and driver</text>
-  <text x="45" y="299" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.45">▸ QR code generation per vehicle for quick mobile access</text>
+  <!-- Maintenance pipeline -->
+  <text x="30" y="274" font-family="'Courier New', monospace" font-size="11" fill="#00FF41" filter="url(#sg2)" font-weight="bold">🔧 Maintenance</text>
 
-  <!-- Separator -->
-  <line x1="30" y1="315" x2="670" y2="315" stroke="#00FF41" stroke-width="0.5" opacity="0.15"/>
+  <rect x="140" y="262" width="75" height="28" rx="3" fill="#00FF41" opacity="0.05"/>
+  <rect x="140" y="262" width="75" height="28" rx="3" fill="none" stroke="#00FF41" stroke-width="0.6" opacity="0.2"/>
+  <text x="178" y="280" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#00FF41" opacity="0.6" font-weight="bold">Open OT</text>
 
-  <!-- ═══════ INSPECTION CHECKLISTS ═══════ -->
-  <text x="30" y="339" font-family="'Courier New', monospace" font-size="13" fill="#00FF41" filter="url(#softglow2)" font-weight="bold">📋 Inspection Checklists</text>
+  <line x1="215" y1="276" x2="228" y2="276" stroke="#00FF41" stroke-width="0.8" opacity="0.2"/>
+  <polygon points="228,273 233,276 228,279" fill="#00FF41" opacity="0.2"/>
 
-  <text x="45" y="361" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.55">▸ Template-based system: checklist templates per vehicle type</text>
-  <text x="45" y="378" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.55">▸ Items with categories, pass/fail and mandatory photo types</text>
-  <text x="45" y="395" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.55">▸ Approval workflow: Pending → Approved / Rejected</text>
-  <text x="45" y="412" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.45">▸ Photo evidence per item with timestamp</text>
+  <rect x="235" y="262" width="75" height="28" rx="3" fill="#00FF41" opacity="0.05"/>
+  <rect x="235" y="262" width="75" height="28" rx="3" fill="none" stroke="#00FF41" stroke-width="0.6" opacity="0.2"/>
+  <text x="273" y="280" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#00FF41" opacity="0.6" font-weight="bold">Assign Shop</text>
 
-  <!-- Separator -->
-  <line x1="30" y1="428" x2="670" y2="428" stroke="#00FF41" stroke-width="0.5" opacity="0.15"/>
+  <line x1="310" y1="276" x2="323" y2="276" stroke="#00FF41" stroke-width="0.8" opacity="0.2"/>
+  <polygon points="323,273 328,276 323,279" fill="#00FF41" opacity="0.2"/>
 
-  <!-- ═══════ MAINTENANCE ═══════ -->
-  <text x="30" y="452" font-family="'Courier New', monospace" font-size="13" fill="#00FF41" filter="url(#softglow2)" font-weight="bold">🔧 Maintenance</text>
+  <rect x="330" y="262" width="75" height="28" rx="3" fill="#00FF41" opacity="0.05"/>
+  <rect x="330" y="262" width="75" height="28" rx="3" fill="none" stroke="#00FF41" stroke-width="0.6" opacity="0.2"/>
+  <text x="368" y="280" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#00FF41" opacity="0.6" font-weight="bold">In Progress</text>
 
-  <!-- Work Order pipeline -->
-  <rect x="30" y="466" width="640" height="80" rx="6" fill="#00FF41" opacity="0.02"/>
+  <line x1="405" y1="276" x2="418" y2="276" stroke="#00FF41" stroke-width="0.8" opacity="0.2"/>
+  <polygon points="418,273 423,276 418,279" fill="#00FF41" opacity="0.2"/>
 
-  <rect x="42" y="476" width="90" height="38" rx="4" fill="#00FF41" opacity="0.06"/>
-  <rect x="42" y="476" width="90" height="38" rx="4" fill="none" stroke="#00FF41" stroke-width="0.8" opacity="0.25"/>
-  <text x="87" y="493" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.8" font-weight="bold">Work Order</text>
-  <text x="87" y="505" text-anchor="middle" font-family="'Courier New', monospace" font-size="7" fill="#00FF41" opacity="0.4">Auto-numbered</text>
+  <rect x="425" y="262" width="75" height="28" rx="3" fill="#00FF41" opacity="0.05"/>
+  <rect x="425" y="262" width="75" height="28" rx="3" fill="none" stroke="#00FF41" stroke-width="0.6" opacity="0.2"/>
+  <text x="463" y="280" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#00FF41" opacity="0.6" font-weight="bold">Close OT</text>
 
-  <line x1="132" y1="495" x2="152" y2="495" stroke="#00FF41" stroke-width="1" opacity="0.3"/>
-  <polygon points="152,491 160,495 152,499" fill="#00FF41" opacity="0.3"/>
+  <text x="45" y="306" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.5">▸ Preventive, corrective, emergency · Scheduled programs by km or time</text>
+  <text x="45" y="321" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.45">▸ Provider registry · Cost tracking · Invoice attachments</text>
 
-  <rect x="162" y="476" width="90" height="38" rx="4" fill="#00FF41" opacity="0.06"/>
-  <rect x="162" y="476" width="90" height="38" rx="4" fill="none" stroke="#00FF41" stroke-width="0.8" opacity="0.25"/>
-  <text x="207" y="493" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.8" font-weight="bold">Assign Shop</text>
-  <text x="207" y="505" text-anchor="middle" font-family="'Courier New', monospace" font-size="7" fill="#00FF41" opacity="0.4">Provider/Shop</text>
+  <line x1="30" y1="333" x2="670" y2="333" stroke="#00FF41" stroke-width="0.3" opacity="0.08"/>
 
-  <line x1="252" y1="495" x2="272" y2="495" stroke="#00FF41" stroke-width="1" opacity="0.3"/>
-  <polygon points="272,491 280,495 272,499" fill="#00FF41" opacity="0.3"/>
+  <!-- Documents & Workers -->
+  <text x="30" y="351" font-family="'Courier New', monospace" font-size="11" fill="#00FF41" filter="url(#sg2)" font-weight="bold">📄 Documents &amp; Workers</text>
+  <text x="215" y="351" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.4">Expiration tracking · License validation · Role-based access (Admin/Fleet Mgr/Driver)</text>
 
-  <rect x="282" y="476" width="90" height="38" rx="4" fill="#00FF41" opacity="0.06"/>
-  <rect x="282" y="476" width="90" height="38" rx="4" fill="none" stroke="#00FF41" stroke-width="0.8" opacity="0.25"/>
-  <text x="327" y="493" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.8" font-weight="bold">In Progress</text>
-  <text x="327" y="505" text-anchor="middle" font-family="'Courier New', monospace" font-size="7" fill="#00FF41" opacity="0.4">Track days</text>
-
-  <line x1="372" y1="495" x2="392" y2="495" stroke="#00FF41" stroke-width="1" opacity="0.3"/>
-  <polygon points="392,491 400,495 392,499" fill="#00FF41" opacity="0.3"/>
-
-  <rect x="402" y="476" width="90" height="38" rx="4" fill="#00FF41" opacity="0.06"/>
-  <rect x="402" y="476" width="90" height="38" rx="4" fill="none" stroke="#00FF41" stroke-width="0.8" opacity="0.25"/>
-  <text x="447" y="493" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.8" font-weight="bold">Close OT</text>
-  <text x="447" y="505" text-anchor="middle" font-family="'Courier New', monospace" font-size="7" fill="#00FF41" opacity="0.4">Invoice + sign-off</text>
-
-  <text x="45" y="558" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.55">▸ Work orders: preventive, corrective, emergency — with priority levels</text>
-  <text x="45" y="575" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.55">▸ Scheduled maintenance programs by mileage or time intervals</text>
-  <text x="45" y="592" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.45">▸ Provider/shop registry with cost tracking and invoice attachments</text>
-
-  <!-- Separator -->
-  <line x1="30" y1="608" x2="670" y2="608" stroke="#00FF41" stroke-width="0.5" opacity="0.15"/>
-
-  <!-- ═══════ DOCUMENTS & WORKERS ═══════ -->
-  <text x="30" y="632" font-family="'Courier New', monospace" font-size="13" fill="#00FF41" filter="url(#softglow2)" font-weight="bold">📄 Documents &amp; Workers</text>
-
-  <text x="45" y="654" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.55">▸ Document types per vehicle type with expiration tracking</text>
-  <text x="45" y="671" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.55">▸ Worker management: RUT, license types, contact info</text>
-  <text x="45" y="688" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.45">▸ Role-based access: Admin, Fleet Manager, Driver, Viewer</text>
-
-  <!-- Footer -->
-  <text x="30" y="682" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.0">.</text>
+  <text x="30" y="370" font-family="'Courier New', monospace" font-size="8" fill="#00FF41" opacity="0.15">▸ personal project — open source</text>
 </svg>
