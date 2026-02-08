@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0d1117&height=3&section=header&strokeWidth=0" width="0" />
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=00FF41&height=2&section=header" width="100%" />
-</p>
+<p align="center"><code>════════════════════════════════════════════════════════════</code></p>
 
 ```
 ╔═══════════════════════════════════════════════════════════╗
