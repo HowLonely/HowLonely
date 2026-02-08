@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://media.giphy.com/media/077i6AULCXc0FKTj9s/giphy.gif" width="100%" height="160" style="object-fit:cover" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:00FF41&height=160&section=header&text=&animation=fadeIn" width="100%" />
 
 ```
 ╔═══════════════════════════════════════════════════════════╗
