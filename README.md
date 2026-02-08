@@ -59,21 +59,26 @@ drwxr-xr-x  2 root root  4096 Feb 08 02:00 devops
 
 ### `[root@howlonely]# cat /var/log/active-projects.log`
 
+<table>
+<tr>
+<td width="50%">
+
+<img src=".github/assets/controlworldms_showcase.svg" width="100%" />
+
+</td>
+<td width="50%">
+
+<img src=".github/assets/fleetcontrol_showcase.svg" width="100%" />
+
 <div align="center">
-  <img src=".github/assets/controlworldms_showcase.svg" width="100%" />
+
+[![Backend](https://img.shields.io/badge/backend-00FF41?style=flat-square&logo=github&logoColor=black)](https://github.com/HowLonely/backend-control-flota) [![Frontend](https://img.shields.io/badge/frontend-00FF41?style=flat-square&logo=github&logoColor=black)](https://github.com/HowLonely/frontend-control-flota)
+
 </div>
 
-<br />
-
-<div align="center">
-  <img src=".github/assets/fleetcontrol_showcase.svg" width="100%" />
-</div>
-
-<div align="center">
-
-[![Backend](https://img.shields.io/badge/repo--backend-00FF41?style=flat-square&logo=github&logoColor=black)](https://github.com/HowLonely/backend-control-flota) [![Frontend](https://img.shields.io/badge/repo--frontend-00FF41?style=flat-square&logo=github&logoColor=black)](https://github.com/HowLonely/frontend-control-flota)
-
-</div>
+</td>
+</tr>
+</table>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=00FF41&height=2&section=header" width="100%" />
