@@ -22,8 +22,8 @@
 class HowLonely:
 
     def __init__(self):
-        self.location       = "Santiago, Chile 🇨🇱"
-        self.current_work   = "controlworldms.cl"
+        self.location       = "Antofagasta, Chile 🇨🇱"
+        self.current_work   = "WorldClass Mining Services"
         self.languages      = ["JavaScript", "TypeScript", "PHP", "Python"]
         self.frontend       = ["React", "Next.js"]
         self.backend        = ["Django", "Laravel"]
