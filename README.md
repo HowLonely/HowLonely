@@ -13,7 +13,7 @@
 ╚═══════════════════════════════════════════════════════════╝
 ```
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2500&pause=800&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=%5Broot%40howlonely%5D%24+sudo+nmap+-sS+portfolio+--open;%5Broot%40howlonely%5D%24+grep+-r+'passion'+%2Fhome%2Fdev%2F+--found" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=500&lines=%24+whoami+--+HowLonely;%24+status+--+building+systems;%24+location+--+Chile+%F0%9F%87%A8%F0%9F%87%B1;%24+uptime+--+always+coding..." alt="Typing SVG" />
 
 [![LinkedIn](https://img.shields.io/badge/-%2Fin%2Fellian--troncoso-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ellian-troncoso/)
 [![Gmail](https://img.shields.io/badge/-elliantroncoso%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:elliantroncoso@gmail.com)
