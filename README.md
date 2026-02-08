@@ -1,5 +1,5 @@
-### Hola, soy ControlWorldMS 👋
-**Head of IT | Full Stack Developer | Integrador de Sistemas**
+  ### Hola, soy HowLonely 👋
+**Head of IT | Full Stack Developer **
 
 Lidero equipos y desarrollo soluciones que optimizan procesos mineros e industriales.
 
