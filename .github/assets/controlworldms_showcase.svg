@@ -55,7 +55,7 @@
   <!-- Separator -->
   <line x1="30" y1="138" x2="670" y2="138" stroke="#00FF41" stroke-width="0.5" opacity="0.15"/>
 
-  <!-- ═══════ STATS ═══════ -->
+  <!-- Stats -->
   <rect x="30" y="150" width="150" height="55" rx="4" fill="#00FF41" opacity="0.04"/>
   <rect x="30" y="150" width="150" height="55" rx="4" fill="none" stroke="#00FF41" stroke-width="0.5" opacity="0.15"/>
   <text x="105" y="175" text-anchor="middle" font-family="'Courier New', monospace" font-size="22" fill="#00FF41" filter="url(#softglow)" font-weight="bold">25+</text>
@@ -79,14 +79,12 @@
   <!-- Separator -->
   <line x1="30" y1="220" x2="670" y2="220" stroke="#00FF41" stroke-width="0.5" opacity="0.15"/>
 
-  <!-- ═══════ PROCUREMENT & BUDGET ═══════ -->
+  <!-- Procurement & Budget -->
   <text x="30" y="244" font-family="'Courier New', monospace" font-size="13" fill="#00FF41" filter="url(#softglow)" font-weight="bold">📋 Procurement &amp; Budget</text>
   <text x="260" y="244" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.2">integrated pipeline</text>
 
-  <!-- Pipeline flow -->
   <rect x="30" y="258" width="640" height="105" rx="6" fill="#00FF41" opacity="0.02"/>
 
-  <!-- Step 1 -->
   <rect x="42" y="270" width="105" height="44" rx="4" fill="#00FF41" opacity="0.06"/>
   <rect x="42" y="270" width="105" height="44" rx="4" fill="none" stroke="#00FF41" stroke-width="0.8" opacity="0.25"/>
   <text x="95" y="289" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.8" font-weight="bold">Requisition</text>
@@ -95,7 +93,6 @@
   <line x1="147" y1="292" x2="172" y2="292" stroke="#00FF41" stroke-width="1" opacity="0.3"/>
   <polygon points="172,288 180,292 172,296" fill="#00FF41" opacity="0.3"/>
 
-  <!-- Step 2 -->
   <rect x="182" y="270" width="105" height="44" rx="4" fill="#00FF41" opacity="0.06"/>
   <rect x="182" y="270" width="105" height="44" rx="4" fill="none" stroke="#00FF41" stroke-width="0.8" opacity="0.25"/>
   <text x="235" y="289" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.8" font-weight="bold">Approval</text>
@@ -104,7 +101,6 @@
   <line x1="287" y1="292" x2="312" y2="292" stroke="#00FF41" stroke-width="1" opacity="0.3"/>
   <polygon points="312,288 320,292 312,296" fill="#00FF41" opacity="0.3"/>
 
-  <!-- Step 3 -->
   <rect x="322" y="270" width="105" height="44" rx="4" fill="#00FF41" opacity="0.06"/>
   <rect x="322" y="270" width="105" height="44" rx="4" fill="none" stroke="#00FF41" stroke-width="0.8" opacity="0.25"/>
   <text x="375" y="289" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.8" font-weight="bold">Purchase Order</text>
@@ -113,13 +109,11 @@
   <line x1="427" y1="292" x2="452" y2="292" stroke="#00FF41" stroke-width="1" opacity="0.3"/>
   <polygon points="452,288 460,292 452,296" fill="#00FF41" opacity="0.3"/>
 
-  <!-- Step 4: Defontana -->
   <rect x="462" y="270" width="120" height="44" rx="4" fill="#00FF41" opacity="0.06"/>
   <rect x="462" y="270" width="120" height="44" rx="4" fill="none" stroke="#00FF41" stroke-width="0.8" opacity="0.25" stroke-dasharray="4,2"/>
   <text x="522" y="289" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.8" font-weight="bold">Defontana</text>
   <text x="522" y="303" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#00FF41" opacity="0.4">Real-time ERP sync</text>
 
-  <!-- Budget link -->
   <rect x="262" y="326" width="170" height="30" rx="4" fill="#00FF41" opacity="0.03"/>
   <rect x="262" y="326" width="170" height="30" rx="4" fill="none" stroke="#00FF41" stroke-width="0.5" opacity="0.15" stroke-dasharray="3,2"/>
   <text x="347" y="340" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.45">💰 Budget (Phases / Items)</text>
@@ -129,7 +123,7 @@
   <!-- Separator -->
   <line x1="30" y1="372" x2="670" y2="372" stroke="#00FF41" stroke-width="0.5" opacity="0.15"/>
 
-  <!-- ═══════ HR ═══════ -->
+  <!-- HR -->
   <text x="30" y="396" font-family="'Courier New', monospace" font-size="13" fill="#00FF41" filter="url(#softglow)" font-weight="bold">👥 Human Resources</text>
 
   <text x="45" y="418" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.55">▸ Full workforce management: contracts, shifts, dependents</text>
@@ -139,7 +133,7 @@
   <!-- Separator -->
   <line x1="30" y1="468" x2="670" y2="468" stroke="#00FF41" stroke-width="0.5" opacity="0.15"/>
 
-  <!-- ═══════ HSE ═══════ -->
+  <!-- HSE -->
   <text x="30" y="492" font-family="'Courier New', monospace" font-size="13" fill="#00FF41" filter="url(#softglow)" font-weight="bold">🛡️ HSE (Health, Safety &amp; Environment)</text>
 
   <text x="45" y="514" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.55">▸ Project startup folder with visual progress tracking and documentation</text>
@@ -149,7 +143,7 @@
   <!-- Separator -->
   <line x1="30" y1="564" x2="670" y2="564" stroke="#00FF41" stroke-width="0.5" opacity="0.15"/>
 
-  <!-- ═══════ VEHICLES ═══════ -->
+  <!-- Vehicles -->
   <text x="30" y="588" font-family="'Courier New', monospace" font-size="13" fill="#00FF41" filter="url(#softglow)" font-weight="bold">🚗 Vehicles</text>
 
   <text x="45" y="610" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.55">▸ Fleet management with documentation, types and status tracking</text>
@@ -159,10 +153,10 @@
   <!-- Separator -->
   <line x1="30" y1="660" x2="670" y2="660" stroke="#00FF41" stroke-width="0.5" opacity="0.15"/>
 
-  <!-- ═══════ FOOTER ═══════ -->
+  <!-- Footer -->
   <text x="30" y="682" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.35">ROLE</text>
-  <text x="80" y="682" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.6">Tech Lead &amp; Full-Stack Developer</text>
+  <text x="80" y="682" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.6">Tech Lead &amp; Solo Developer</text>
   <text x="350" y="682" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.35">SINCE</text>
-  <text x="400" y="682" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.6">March 2025 → Present</text>
+  <text x="400" y="682" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.6">Aug 2023 → Present</text>
   <text x="580" y="682" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.35">🔒 Private</text>
 </svg>
