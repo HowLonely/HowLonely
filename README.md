@@ -12,9 +12,9 @@ Lidero equipos y desarrollo soluciones que optimizan procesos mineros e industri
 
 ### 📊 Mis Estadísticas (Data-Driven)
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=controlworldms&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="Estadísticas de controlworldms" />
+  <img src="https://github-readme-stats.vercel.app/api?username=HowLonely&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="Estadísticas de HowLonely" />
   
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=controlworldms&layout=compact&theme=radical&hide_border=true&hide=jupyter%20notebook" alt="Lenguajes Top" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HowLonely&layout=compact&theme=radical&hide_border=true&hide=jupyter%20notebook" alt="Lenguajes Top" />
 </div>
 
 ---
