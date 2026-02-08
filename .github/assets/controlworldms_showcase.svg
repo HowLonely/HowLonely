@@ -32,7 +32,7 @@
   <rect x="30" y="108" width="110" height="40" rx="4" fill="#00FF41" opacity="0.04"/>
   <rect x="30" y="108" width="110" height="40" rx="4" fill="none" stroke="#00FF41" stroke-width="0.5" opacity="0.15"/>
   <text x="85" y="128" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#00FF41" filter="url(#sg1)" font-weight="bold">25+</text>
-  <text x="85" y="142" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#00FF41" opacity="0.4">Monthly users</text>
+  <text x="85" y="142" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#00FF41" opacity="0.4">Daily Active Users</text>
 
   <rect x="150" y="108" width="110" height="40" rx="4" fill="#00FF41" opacity="0.04"/>
   <rect x="150" y="108" width="110" height="40" rx="4" fill="none" stroke="#00FF41" stroke-width="0.5" opacity="0.15"/>
