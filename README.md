@@ -59,28 +59,15 @@ drwxr-xr-x  2 root root  4096 Feb 08 02:00 devops
 
 ### `[root@howlonely]# cat /var/log/active-projects.log`
 
+<div align="center">
+  <img src=".github/assets/controlworldms_showcase.svg" width="100%" />
+</div>
+
+<br />
+
 <table>
 <tr>
-<td width="50%">
-
-```
-┌──────────────────────────────────┐
-│ PID 1337                         │
-│ PROCESS  controlworldms.cl       │
-│ STATUS   Running ●               │
-│ TYPE     Work                    │
-│ UPTIME   Active                  │
-└──────────────────────────────────┘
-```
-
-> Custom-built business management system tailored to company-specific workflows & operations.
->
-> `PHP` `Laravel` `Blade` `AWS`
->
->
-
-</td>
-<td width="50%">
+<td>
 
 ```
 ┌──────────────────────────────────┐
