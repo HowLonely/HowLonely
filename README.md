@@ -66,7 +66,7 @@ drwxr-xr-x  2 root root  4096 Feb 08 02:00 devops
 <br />
 
 <div align="center">
-  <img src=".github/assets/fleetcontrol_showcase.svg" width="100%" />
+  <img src=".github/assets/controlflota_showcase.svg" width="100%" />
 </div>
 
 <div align="center">
