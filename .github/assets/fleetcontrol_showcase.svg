@@ -19,10 +19,10 @@
   <circle cx="46" cy="30" r="4" fill="#00FF41" opacity="0.35"/>
   <circle cx="60" cy="30" r="4" fill="#00FF41" opacity="0.15"/>
   <text x="82" y="35" font-family="'Courier New', monospace" font-size="12" fill="#00FF41" opacity="0.6">root@howlonely:~#</text>
-  <text x="230" y="35" font-family="'Courier New', monospace" font-size="12" fill="#00FF41" filter="url(#sg2)">cat /dev/control-flota.conf</text>
+  <text x="230" y="35" font-family="'Courier New', monospace" font-size="12" fill="#00FF41" filter="url(#sg2)">cat /dev/fleet-management-system.conf</text>
 
   <!-- Title -->
-  <text x="30" y="76" font-family="'Courier New', monospace" font-size="20" fill="#00FF41" filter="url(#g2)" font-weight="bold">▸ Control Flota</text>
+  <text x="30" y="76" font-family="'Courier New', monospace" font-size="20" fill="#00FF41" filter="url(#g2)" font-weight="bold">▸ Fleet Management System</text>
   <circle cx="555" cy="72" r="4" fill="#FFAA00" opacity="0.7"><animate attributeName="opacity" values="0.7;0.3;0.7" dur="2.5s" repeatCount="indefinite"/></circle>
   <text x="565" y="76" font-family="'Courier New', monospace" font-size="10" fill="#FFAA00" opacity="0.5">IN DEVELOPMENT</text>
   <text x="30" y="94" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.35">Full stack fleet management system — personal project · Decoupled REST API + SPA</text>
