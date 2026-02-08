@@ -50,7 +50,7 @@
   <text x="445" y="142" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#00FF41" opacity="0.4">In production</text>
 
   <text x="520" y="125" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.3">Tech Lead</text>
-  <text x="520" y="140" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.3">Solo Developer</text>
+  <text x="520" y="140" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.3">Full-Stack Developer</text>
 
   <line x1="30" y1="158" x2="670" y2="158" stroke="#00FF41" stroke-width="0.5" opacity="0.12"/>
 
