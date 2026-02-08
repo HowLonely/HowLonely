@@ -1,6 +1,23 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=500&lines=%24+whoami+--+HowLonely;%24+status+--+building+systems;%24+location+--+Chile+%F0%9F%87%A8%F0%9F%87%B1;%24+uptime+--+always+coding..." alt="Typing SVG" />
+```
+ ██   ██  ██████  ██     ██ ██       ██████  ███    ██ ███████ ██      ██    ██ 
+ ██   ██ ██    ██ ██     ██ ██      ██    ██ ████   ██ ██      ██       ██  ██  
+ ███████ ██    ██ ██  █  ██ ██      ██    ██ ██ ██  ██ █████   ██        ████   
+ ██   ██ ██    ██ ██ ███ ██ ██      ██    ██ ██  ██ ██ ██      ██         ██    
+ ██   ██  ██████   ███ ███  ███████  ██████  ██   ████ ███████ ███████    ██    
+```
+
+```
+ ╔══════════════════════════════════════════════════════════════╗
+ ║  root@howlonely:~$ ./identify.sh                            ║
+ ║  > ROLE: Full Stack Developer                               ║
+ ║  > LOCATION: Chile 🇨🇱                                      ║
+ ║  > STATUS: Online                                           ║
+ ╚══════════════════════════════════════════════════════════════╝
+```
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=550&lines=%24+sudo+access+--granted;%24+cat+%2Fetc%2Fskills.conf+--loading;%24+ping+github.com+--reply+from+HowLonely;%24+uptime+--+always+coding..." alt="Typing SVG" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ellian-troncoso/)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:elliantroncoso@gmail.com)
@@ -11,7 +28,7 @@
 ---
 
 ```js
-// $ cat ~/about.js
+// root@howlonely:~$ cat /etc/profile.conf
 
 const HowLonely = {
     location:       "Chile 🇨🇱",
@@ -28,25 +45,25 @@ module.exports = HowLonely;
 
 ---
 
-### `> ls ./tech-arsenal/`
+### `root@howlonely:~$ ls -la ./tech-arsenal/`
 
 <div align="center">
 
-**`./languages/`**
+**`drwxr-xr-x  ./languages/`**
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-**`./frameworks/`**
+**`drwxr-xr-x  ./frameworks/`**
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 
-**`./devops/`**
+**`drwxr-xr-x  ./devops/`**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
@@ -56,13 +73,18 @@ module.exports = HowLonely;
 
 ---
 
-### `> cat ./active-projects.log`
+### `root@howlonely:~$ cat /var/log/active-projects.log`
 
 <table>
 <tr>
 <td width="50%">
 
-**🏢 controlworldms.cl** `work`
+```
+[PROCESS] controlworldms.cl
+[STATUS]  Running ●
+[TYPE]    Work
+```
+
 > Custom-built business management system tailored to company-specific workflows & operations.
 >
 > `PHP` `Laravel` `Blade` `AWS`
@@ -70,12 +92,17 @@ module.exports = HowLonely;
 </td>
 <td width="50%">
 
-**🚛 Control Flota** `personal`
+```
+[PROCESS] Control Flota
+[STATUS]  Running ●
+[TYPE]    Personal
+```
+
 > Fleet management system — full stack solution built from scratch.
 >
 > `Python` `Django` `TypeScript` `React` `Next.js`
 >
-> [![Backend](https://img.shields.io/badge/Backend-181717?style=flat-square&logo=github)](https://github.com/HowLonely/backend-control-flota) [![Frontend](https://img.shields.io/badge/Frontend-181717?style=flat-square&logo=github)](https://github.com/HowLonely/frontend-control-flota)
+> [![Backend](https://img.shields.io/badge/repo--backend-181717?style=flat-square&logo=github)](https://github.com/HowLonely/backend-control-flota) [![Frontend](https://img.shields.io/badge/repo--frontend-181717?style=flat-square&logo=github)](https://github.com/HowLonely/frontend-control-flota)
 
 </td>
 </tr>
@@ -83,7 +110,7 @@ module.exports = HowLonely;
 
 ---
 
-### `> git log --streak`
+### `root@howlonely:~$ git log --streak`
 
 <div align="center">
 
@@ -93,7 +120,7 @@ module.exports = HowLonely;
 
 ---
 
-### `> history --graph`
+### `root@howlonely:~$ history --graph`
 
 <div align="center">
 
@@ -108,7 +135,9 @@ module.exports = HowLonely;
 <img src="https://komarev.com/ghpvc/?username=HowLonely&style=flat-square&color=00FF41&label=profile+views" />
 
 ```
-[EXIT STATUS 0] — session active_
+root@howlonely:~$ echo $?
+0
+root@howlonely:~$ █
 ```
 
 </div>
