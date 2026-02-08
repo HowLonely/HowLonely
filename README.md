@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,100:00FF41&height=150&section=header&text=&animation=fadeIn" width="100%" />
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGJ0OWp2dDd2OWpzM2R1bWZhNnM1NWVmY2VpbjlyZDVnOGVsZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/26tn33aiTi1jkl6H6/giphy.gif" width="100%" height="160" style="object-fit:cover" />
 
 ```
 ╔═══════════════════════════════════════════════════════════╗
