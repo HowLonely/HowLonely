@@ -17,6 +17,18 @@ Lidero equipos y desarrollo soluciones que optimizan procesos mineros e industri
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HowLonely&layout=compact&theme=radical&hide_border=true&hide=jupyter%20notebook" alt="Lenguajes Top" />
 </div>
 
+<div align="center">
+  <h2>📊 Mis Métricas</h2>
+  
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=HowLonely&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  </a>
+  
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HowLonely&layout=compact&theme=tokyonight&hide_border=true"/>
+  </a>
+</div>
+
 ---
 
 ### 🛠 Tech Stack & Herramientas
