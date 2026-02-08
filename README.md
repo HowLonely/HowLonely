@@ -1,15 +1,8 @@
 <div align="center">
 
-```diff
- +╔═══════════════════════════════════════════════════════════╗
- +║  root@howlonely:~# ./identify.sh                          ║
- +║                                                           ║
- +║  [■] ROLE ......... Full Stack Developer                  ║
- +║  [■] LOCATION ..... Antofagasta, Chile                    ║
- +║  [■] STATUS ....... Online ●                              ║
- +║  [■] THREAT LVL ... Controlled ██████████ 100%            ║
- +╚═══════════════════════════════════════════════════════════╝
-```
+<div align="center">
+  <img src="./identify.svg" width="100%" />
+</div>
 
 <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
 
