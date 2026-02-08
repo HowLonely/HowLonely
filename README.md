@@ -18,30 +18,6 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=00FF41&height=2&section=header" width="100%" />
 </p>
 
-```python
-# root@howlonely:~# cat /etc/profile.conf
-
-class HowLonely:
-
-    def __init__(self):
-        self.location       = "Antofagasta, Chile 🇨🇱"
-        self.current_work   = "controlworldms.cl"
-        self.languages      = ["JavaScript", "TypeScript", "PHP", "Python"]
-        self.frontend       = ["React", "Next.js"]
-        self.backend        = ["Django", "Laravel"]
-        self.devops         = ["Docker", "AWS", "Git"]
-        self.status         = "Building systems at 2am ☕"
-
-    def __str__(self):
-        return "Always shipping code."
-
-# EOF
-```
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=00FF41&height=2&section=header" width="100%" />
-</p>
-
 ### `[root@howlonely]# ls -la /etc/tech-arsenal/`
 
 ```
