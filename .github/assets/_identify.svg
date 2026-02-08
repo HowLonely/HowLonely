@@ -18,40 +18,40 @@
       <rect width="700" height="2" fill="#00FF41"/>
     </pattern>
 
-    <!-- Clip paths for each typing phrase -->
+    <!-- Clip paths for typing - faster cycle 20s total -->
     <clipPath id="type1">
       <rect x="196" y="228" height="22">
         <animate attributeName="width"
-          values="0;0;0;0;0;340;340;340;340;340;340;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0"
-          dur="42s" repeatCount="indefinite" calcMode="linear"/>
+          values="0;340;340;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0"
+          dur="20s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
     <clipPath id="type2">
       <rect x="196" y="228" height="22">
         <animate attributeName="width"
-          values="0;0;0;0;0;0;0;0;0;0;0;0;0;350;350;350;350;350;350;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0"
-          dur="42s" repeatCount="indefinite" calcMode="linear"/>
+          values="0;0;0;0;350;350;350;0;0;0;0;0;0;0;0;0;0;0;0;0"
+          dur="20s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
     <clipPath id="type3">
       <rect x="196" y="228" height="22">
         <animate attributeName="width"
-          values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;270;270;270;270;270;270;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0"
-          dur="42s" repeatCount="indefinite" calcMode="linear"/>
+          values="0;0;0;0;0;0;0;0;270;270;270;0;0;0;0;0;0;0;0;0"
+          dur="20s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
     <clipPath id="type4">
       <rect x="196" y="228" height="22">
         <animate attributeName="width"
-          values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;310;310;310;310;310;310;0;0;0;0;0;0;0"
-          dur="42s" repeatCount="indefinite" calcMode="linear"/>
+          values="0;0;0;0;0;0;0;0;0;0;0;0;310;310;310;0;0;0;0;0"
+          dur="20s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
     <clipPath id="type5">
       <rect x="196" y="228" height="22">
         <animate attributeName="width"
-          values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;280;280;280;280;0"
-          dur="42s" repeatCount="indefinite" calcMode="linear"/>
+          values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;280;280;280;0"
+          dur="20s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
   </defs>
@@ -106,7 +106,7 @@
   <!-- Bottom prompt -->
   <text x="30" y="245" font-family="'Courier New', monospace" font-size="13" fill="#00FF41" opacity="0.5">root@howlonely:~#</text>
 
-  <!-- Phrase 1: typing in and erasing -->
+  <!-- Phrase 1 -->
   <g clip-path="url(#type1)">
     <text x="196" y="245" font-family="'Courier New', monospace" font-size="13" fill="#00FF41" filter="url(#softglow)">echo "sleep is deprecated"</text>
   </g>
@@ -130,14 +130,6 @@
   <g clip-path="url(#type5)">
     <text x="196" y="245" font-family="'Courier New', monospace" font-size="13" fill="#00FF41" filter="url(#softglow)">nmap --scan-portfolio</text>
   </g>
-
-  <!-- Blinking cursor that moves with typing -->
-  <rect y="234" width="8" height="15" rx="1" fill="#00FF41">
-    <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
-    <animate attributeName="x"
-      values="196;196;196;196;196;536;536;536;536;536;196;196;196;546;546;546;546;546;196;196;196;466;466;466;466;466;196;196;196;506;506;506;506;506;196;196;196;476;476;476;476;196"
-      dur="42s" repeatCount="indefinite" calcMode="discrete"/>
-  </rect>
 
   <!-- Corner decorations -->
   <path d="M16,6 L6,6 L6,16" fill="none" stroke="#00FF41" stroke-width="1.5" opacity="0.5"/>
