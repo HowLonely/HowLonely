@@ -162,6 +162,4 @@ drwxr-xr-x  2 root root  4096 Feb 08 02:00 devops
 Connection to howlonely closed.
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:00FF41,100:0d1117&height=120&section=footer&text=&animation=fadeIn" width="100%" />
-
 </div>
