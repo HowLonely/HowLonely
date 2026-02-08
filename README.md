@@ -1,7 +1,6 @@
 <div align="center">
 
-**[<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGJ0OWp2dDd2OWpzM2R1bWZhNnM1NWVmY2VpbjlyZDVnOGVsZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/26tn33aiTi1jkl6H6/giphy.gif" width="100%" height="160" style="object-fit:cover" />](https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg)
-**
+<img src="https://media.giphy.com/media/077i6AULCXc0FKTj9s/giphy.gif" width="100%" height="160" style="object-fit:cover" />
 
 ```
 ╔═══════════════════════════════════════════════════════════╗
