@@ -20,7 +20,7 @@
 ---
 
 ```js
-// root@howlonely:~$ cat /etc/profile.conf
+root@howlonely:~$ cat /etc/profile.conf
 
 const HowLonely = {
     location:       "Chile 🇨🇱",
