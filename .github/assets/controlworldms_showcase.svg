@@ -79,9 +79,9 @@
   <!-- Separator -->
   <line x1="30" y1="220" x2="670" y2="220" stroke="#00FF41" stroke-width="0.5" opacity="0.15"/>
 
-  <!-- ═══════ COMPRAS + PRESUPUESTO ═══════ -->
-  <text x="30" y="244" font-family="'Courier New', monospace" font-size="13" fill="#00FF41" filter="url(#softglow)" font-weight="bold">📋 Compras &amp; Presupuesto</text>
-  <text x="280" y="244" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.2">integrated pipeline</text>
+  <!-- ═══════ PROCUREMENT & BUDGET ═══════ -->
+  <text x="30" y="244" font-family="'Courier New', monospace" font-size="13" fill="#00FF41" filter="url(#softglow)" font-weight="bold">📋 Procurement &amp; Budget</text>
+  <text x="260" y="244" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.2">integrated pipeline</text>
 
   <!-- Pipeline flow -->
   <rect x="30" y="258" width="640" height="105" rx="6" fill="#00FF41" opacity="0.02"/>
@@ -89,8 +89,8 @@
   <!-- Step 1 -->
   <rect x="42" y="270" width="105" height="44" rx="4" fill="#00FF41" opacity="0.06"/>
   <rect x="42" y="270" width="105" height="44" rx="4" fill="none" stroke="#00FF41" stroke-width="0.8" opacity="0.25"/>
-  <text x="95" y="289" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.8" font-weight="bold">Requisición</text>
-  <text x="95" y="303" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#00FF41" opacity="0.4">Solicitud interna</text>
+  <text x="95" y="289" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.8" font-weight="bold">Requisition</text>
+  <text x="95" y="303" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#00FF41" opacity="0.4">Internal request</text>
 
   <line x1="147" y1="292" x2="172" y2="292" stroke="#00FF41" stroke-width="1" opacity="0.3"/>
   <polygon points="172,288 180,292 172,296" fill="#00FF41" opacity="0.3"/>
@@ -98,8 +98,8 @@
   <!-- Step 2 -->
   <rect x="182" y="270" width="105" height="44" rx="4" fill="#00FF41" opacity="0.06"/>
   <rect x="182" y="270" width="105" height="44" rx="4" fill="none" stroke="#00FF41" stroke-width="0.8" opacity="0.25"/>
-  <text x="235" y="289" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.8" font-weight="bold">Aprobación</text>
-  <text x="235" y="303" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#00FF41" opacity="0.4">Flujo multi-nivel</text>
+  <text x="235" y="289" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.8" font-weight="bold">Approval</text>
+  <text x="235" y="303" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#00FF41" opacity="0.4">Multi-level flow</text>
 
   <line x1="287" y1="292" x2="312" y2="292" stroke="#00FF41" stroke-width="1" opacity="0.3"/>
   <polygon points="312,288 320,292 312,296" fill="#00FF41" opacity="0.3"/>
@@ -107,8 +107,8 @@
   <!-- Step 3 -->
   <rect x="322" y="270" width="105" height="44" rx="4" fill="#00FF41" opacity="0.06"/>
   <rect x="322" y="270" width="105" height="44" rx="4" fill="none" stroke="#00FF41" stroke-width="0.8" opacity="0.25"/>
-  <text x="375" y="289" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.8" font-weight="bold">Orden Compra</text>
-  <text x="375" y="303" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#00FF41" opacity="0.4">Vinculada a ppto.</text>
+  <text x="375" y="289" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.8" font-weight="bold">Purchase Order</text>
+  <text x="375" y="303" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#00FF41" opacity="0.4">Linked to budget</text>
 
   <line x1="427" y1="292" x2="452" y2="292" stroke="#00FF41" stroke-width="1" opacity="0.3"/>
   <polygon points="452,288 460,292 452,296" fill="#00FF41" opacity="0.3"/>
@@ -119,50 +119,50 @@
   <text x="522" y="289" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.8" font-weight="bold">Defontana</text>
   <text x="522" y="303" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#00FF41" opacity="0.4">Real-time ERP sync</text>
 
-  <!-- Presupuesto link -->
+  <!-- Budget link -->
   <rect x="262" y="326" width="170" height="30" rx="4" fill="#00FF41" opacity="0.03"/>
   <rect x="262" y="326" width="170" height="30" rx="4" fill="none" stroke="#00FF41" stroke-width="0.5" opacity="0.15" stroke-dasharray="3,2"/>
-  <text x="347" y="340" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.45">💰 Presupuesto (Fases / Items)</text>
-  <text x="347" y="352" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#00FF41" opacity="0.3">OC vinculada automáticamente a subitem</text>
+  <text x="347" y="340" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#00FF41" opacity="0.45">💰 Budget (Phases / Items)</text>
+  <text x="347" y="352" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#00FF41" opacity="0.3">PO auto-linked to budget subitem</text>
   <line x1="375" y1="326" x2="375" y2="316" stroke="#00FF41" stroke-width="0.6" opacity="0.15" stroke-dasharray="3,2"/>
 
   <!-- Separator -->
   <line x1="30" y1="372" x2="670" y2="372" stroke="#00FF41" stroke-width="0.5" opacity="0.15"/>
 
-  <!-- ═══════ RRHH ═══════ -->
-  <text x="30" y="396" font-family="'Courier New', monospace" font-size="13" fill="#00FF41" filter="url(#softglow)" font-weight="bold">👥 Recursos Humanos</text>
+  <!-- ═══════ HR ═══════ -->
+  <text x="30" y="396" font-family="'Courier New', monospace" font-size="13" fill="#00FF41" filter="url(#softglow)" font-weight="bold">👥 Human Resources</text>
 
-  <text x="45" y="418" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.55">▸ Gestión completa de trabajadores: contratos, jornadas, cargas familiares</text>
-  <text x="45" y="435" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.55">▸ Documentación por proyecto y por trabajador con control de vencimientos</text>
-  <text x="45" y="452" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.45">▸ Asignación por centro de costo y faena · Jornadas excepcionales</text>
+  <text x="45" y="418" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.55">▸ Full workforce management: contracts, shifts, dependents</text>
+  <text x="45" y="435" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.55">▸ Document tracking per project and per worker with expiration control</text>
+  <text x="45" y="452" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.45">▸ Cost center and site assignment · Exceptional shift management</text>
 
   <!-- Separator -->
   <line x1="30" y1="468" x2="670" y2="468" stroke="#00FF41" stroke-width="0.5" opacity="0.15"/>
 
   <!-- ═══════ HSE ═══════ -->
-  <text x="30" y="492" font-family="'Courier New', monospace" font-size="13" fill="#00FF41" filter="url(#softglow)" font-weight="bold">🛡️ HSE (Seguridad, Salud y Medio Ambiente)</text>
+  <text x="30" y="492" font-family="'Courier New', monospace" font-size="13" fill="#00FF41" filter="url(#softglow)" font-weight="bold">🛡️ HSE (Health, Safety &amp; Environment)</text>
 
-  <text x="45" y="514" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.55">▸ Carpeta de Arranque por proyecto con progreso visual y documentación</text>
-  <text x="45" y="531" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.55">▸ Registro de Incidentes/Accidentes (ISO 45001) con acciones correctivas</text>
-  <text x="45" y="548" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.45">▸ Sistema genérico de checklists — tipos nuevos sin tocar código</text>
+  <text x="45" y="514" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.55">▸ Project startup folder with visual progress tracking and documentation</text>
+  <text x="45" y="531" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.55">▸ Incident/Accident reporting (ISO 45001) with corrective actions</text>
+  <text x="45" y="548" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.45">▸ Generic checklist system — new types without touching code</text>
 
   <!-- Separator -->
   <line x1="30" y1="564" x2="670" y2="564" stroke="#00FF41" stroke-width="0.5" opacity="0.15"/>
 
-  <!-- ═══════ VEHÍCULOS ═══════ -->
-  <text x="30" y="588" font-family="'Courier New', monospace" font-size="13" fill="#00FF41" filter="url(#softglow)" font-weight="bold">🚗 Vehículos</text>
+  <!-- ═══════ VEHICLES ═══════ -->
+  <text x="30" y="588" font-family="'Courier New', monospace" font-size="13" fill="#00FF41" filter="url(#softglow)" font-weight="bold">🚗 Vehicles</text>
 
-  <text x="45" y="610" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.55">▸ Gestión de flota con documentación, tipos y estados</text>
-  <text x="45" y="627" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.55">▸ Checklist de inspección configurable con fotos y validación de supervisor</text>
-  <text x="45" y="644" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.45">▸ Gastos vinculados a vehículo dentro del presupuesto del proyecto</text>
+  <text x="45" y="610" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.55">▸ Fleet management with documentation, types and status tracking</text>
+  <text x="45" y="627" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.55">▸ Configurable inspection checklist with photo uploads and supervisor sign-off</text>
+  <text x="45" y="644" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.45">▸ Vehicle expenses linked to project budget</text>
 
   <!-- Separator -->
   <line x1="30" y1="660" x2="670" y2="660" stroke="#00FF41" stroke-width="0.5" opacity="0.15"/>
 
   <!-- ═══════ FOOTER ═══════ -->
   <text x="30" y="682" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.35">ROLE</text>
-  <text x="80" y="682" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.6">Tech Lead &amp; Full-Stack Developer</text>
+  <text x="80" y="682" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.6">Tech Lead &amp; Solo Developer</text>
   <text x="350" y="682" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.35">SINCE</text>
-  <text x="400" y="682" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.6">March 2025 → Present</text>
+  <text x="400" y="682" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.6">Aug 2023 → Present</text>
   <text x="580" y="682" font-family="'Courier New', monospace" font-size="10" fill="#00FF41" opacity="0.35">🔒 Private</text>
 </svg>
