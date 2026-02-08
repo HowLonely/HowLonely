@@ -1,7 +1,5 @@
 <div align="center">
 
-<p align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=2&duration=1&pause=99999&color=00FF41&center=true&vCenter=true&width=600&height=3&lines=+" alt="" /></p>
-
 ```
 ╔═══════════════════════════════════════════════════════════╗
 ║  root@howlonely:~# ./identify.sh                          ║
@@ -25,7 +23,9 @@
 
 <!-- ════════════════════════ SEPARATOR ════════════════════════ -->
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=00FF41&height=2&section=header" width="100%" />
+</p>
 
 ```python
 # root@howlonely:~# cat /etc/profile.conf
@@ -47,7 +47,9 @@ class HowLonely:
 # EOF
 ```
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=00FF41&height=2&section=header" width="100%" />
+</p>
 
 ### `[root@howlonely]# ls -la /etc/tech-arsenal/`
 
@@ -84,7 +86,9 @@ drwxr-xr-x  2 root root  4096 Feb 08 02:00 devops
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=00FF41&height=2&section=header" width="100%" />
+</p>
 
 ### `[root@howlonely]# cat /var/log/active-projects.log`
 
@@ -131,7 +135,9 @@ drwxr-xr-x  2 root root  4096 Feb 08 02:00 devops
 </tr>
 </table>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=00FF41&height=2&section=header" width="100%" />
+</p>
 
 ### `[root@howlonely]# git log --streak`
 
@@ -141,7 +147,9 @@ drwxr-xr-x  2 root root  4096 Feb 08 02:00 devops
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=00FF41&height=2&section=header" width="100%" />
+</p>
 
 ### `[root@howlonely]# history --graph`
 
@@ -151,7 +159,9 @@ drwxr-xr-x  2 root root  4096 Feb 08 02:00 devops
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=00FF41&height=2&section=header" width="100%" />
+</p>
 
 <div align="center">
 
