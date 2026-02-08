@@ -1,6 +1,6 @@
 <div align="center">
 
-<p align="center"><code>════════════════════════════════════════════════════════════</code></p>
+<p align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=2&duration=1&pause=99999&color=00FF41&center=true&vCenter=true&width=600&height=3&lines=+" alt="" /></p>
 
 ```
 ╔═══════════════════════════════════════════════════════════╗
