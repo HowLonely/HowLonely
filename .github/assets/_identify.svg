@@ -86,16 +86,16 @@
   <text x="140" y="140" font-family="'Courier New', monospace" font-size="14" fill="#1a3a1a">··········</text>
   <text x="250" y="140" font-family="'Courier New', monospace" font-size="14" fill="#00FF41" filter="url(#softglow)" font-weight="bold">Antofagasta, Chile</text>
 
-  <!-- STATUS -->
-  <text x="30" y="170" font-family="'Courier New', monospace" font-size="14" fill="#00FF41" opacity="0.45">▸ STATUS</text>
-  <text x="140" y="170" font-family="'Courier New', monospace" font-size="14" fill="#1a3a1a">··········</text>
-  <text x="250" y="170" font-family="'Courier New', monospace" font-size="14" fill="#00FF41" filter="url(#softglow)" font-weight="bold">Online</text>
-  <circle cx="318" cy="166" r="4" fill="#00FF41" filter="url(#glow)"/>
+  <!-- UPTIME -->
+  <text x="30" y="230" font-family="'Courier New', monospace" font-size="14" fill="#00FF41" opacity="0.45">▸ UPTIME</text>
+  <text x="140" y="230" font-family="'Courier New', monospace" font-size="14" fill="#1a3a1a">··········</text>
+  <text x="250" y="230" font-family="'Courier New', monospace" font-size="14" fill="#00FF41" filter="url(#softglow)" font-weight="bold">Since birth, 0 reboots</text>
 
-  <!-- THREAT LEVEL -->
-  <text x="30" y="200" font-family="'Courier New', monospace" font-size="14" fill="#00FF41" opacity="0.45">▸ THREAT LVL</text>
-  <text x="140" y="200" font-family="'Courier New', monospace" font-size="14" fill="#1a3a1a">··········</text>
-  <text x="250" y="200" font-family="'Courier New', monospace" font-size="14" fill="#00FF41" filter="url(#softglow)" font-weight="bold">Controlled</text>
+  <!-- SLEEP -->
+  <text x="30" y="170" font-family="'Courier New', monospace" font-size="14" fill="#00FF41" opacity="0.45">▸ SLEEP</text>
+  <text x="140" y="170" font-family="'Courier New', monospace" font-size="14" fill="#1a3a1a">··········</text>
+  <text x="250" y="170" font-family="'Courier New', monospace" font-size="14" fill="#00FF41" filter="url(#softglow)" font-weight="bold">Deprecated</text>
+  <circle cx="348" cy="166" r="4" fill="#FF4444" opacity="0.6"/>
   
   <!-- Progress bar -->
   <rect x="370" y="189" width="120" height="14" rx="2" fill="none" stroke="#00FF41" stroke-width="1" opacity="0.3"/>
