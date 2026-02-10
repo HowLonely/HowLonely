@@ -25,8 +25,9 @@ total 11
 drwxr-xr-x  4 root root  4096 Feb 08 02:00 .
 drwxr-xr-x  3 root root  4096 Feb 08 02:00 ..
 drwxr-xr-x  2 root root  4096 Feb 08 02:00 languages
-drwxr-xr-x  2 root root  4096 Feb 08 02:00 frameworks
-drwxr-xr-x  2 root root  4096 Feb 08 02:00 devops
+drwxr-xr-x  5 root root  4096 Feb 08 02:00 frameworks
+drwxr-xr-x  3 root root  4096 Feb 08 02:00 devops
+drwxr-xr-x  1 root root  4096 Feb 08 02:00 ai-ml
 ```
 
 <div align="center">
