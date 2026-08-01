@@ -1,119 +1,129 @@
 <div align="center">
 
-<div align="center">
-  <img src=".github/assets/_identify.svg" width="100%" />
+# Ellian Troncoso
+
+### Líder Técnico de I+D · Software Full Stack · Industrial IoT
+
+Diseño soluciones que conectan **instrumentación industrial, telemetría y software** para transformar operaciones mineras en sistemas centralizados, observables y basados en datos.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ellian_Troncoso-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ellian-troncoso/)
+[![Email](https://img.shields.io/badge/Email-elliantroncoso%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:elliantroncoso@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-HowLonely-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HowLonely)
+
 </div>
 
-<br />
+---
 
-[![LinkedIn](https://img.shields.io/badge/-%2Fin%2Fellian--troncoso-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ellian-troncoso/)
-[![Gmail](https://img.shields.io/badge/-elliantroncoso%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:elliantroncoso@gmail.com)
-[![GitHub](https://img.shields.io/badge/-HowLonely-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HowLonely)
+## Sobre mí
 
-</div>
+Soy Ingeniero de Software y actualmente me desempeño como **Líder Técnico de Investigación y Desarrollo**, trabajando en soluciones de **Industrial IoT, adquisición de datos y plataformas operacionales para minería**.
 
-<!-- ════════════════════════ SEPARATOR ════════════════════════ -->
+Mi experiencia combina desarrollo Full Stack, integración de equipos industriales, diseño de dispositivos con ESP32, señales 4–20 mA, MQTT, Node-RED y construcción de plataformas empresariales. Trabajo desde la captura del dato en terreno hasta su procesamiento, almacenamiento, análisis y visualización.
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=00FF41&height=2&section=header" width="100%" />
-</p>
+- Integro equipos de monitoreo **Trolex XD Air, Trolex XD1+, Casella y PDR Thermo Scientific**.
+- Desarrollo sistemas de telemetría mediante **MQTT, Node-RED y APIs REST**.
+- Diseño soluciones IoT basadas en **ESP32 y señales industriales 4–20 mA**.
+- Lidero arquitectura, desarrollo e integración de plataformas críticas para la operación.
+- Desarrollo productos con **Laravel, Python, Django, FastAPI, React, Next.js y Electron**.
 
-### `[root@howlonely]# ls -la /etc/tech-arsenal/`
+---
 
-```
-total 11
-drwxr-xr-x  4 root root  4096 Feb 08 02:00 .
-drwxr-xr-x  3 root root  4096 Feb 08 02:00 ..
-drwxr-xr-x  2 root root  4096 Feb 08 02:00 languages
-drwxr-xr-x  5 root root  4096 Feb 08 02:00 frameworks
-drwxr-xr-x  3 root root  4096 Feb 08 02:00 devops
-drwxr-xr-x  1 root root  4096 Feb 08 02:00 ai-ml
-```
+## Proyecto principal
 
-<div align="center">
+### Sala de Control Operacional
 
-**`-rwxr-xr-x  ./languages/*`**
+Lidero el desarrollo de una plataforma que centraliza el **core operacional de una empresa de mitigación de polvo**, entregando visibilidad en tiempo real sobre las operaciones ejecutadas en faenas mineras.
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+La solución integra:
+
+- Monitoreo ambiental y material particulado.
+- Indicadores de eficiencia de mitigación.
+- Telemetría y disponibilidad de equipos.
+- Nivel, consumo, recargas y autonomía de estanques IBC.
+- Cámaras en vivo para supervisión remota de faenas.
+- Alertas, históricos, mapas y reportes operacionales.
+- Normalización de datos provenientes de equipos de distintos fabricantes.
+
+Como parte del proyecto, diseñé una solución basada en **ESP32** capaz de convertir señales industriales **4–20 mA** en telemetría digital para monitorear el consumo de productos almacenados en estanques IBC.
+
+`Industrial IoT` · `MQTT` · `Node-RED` · `ESP32` · `4–20 mA` · `Laravel` · `RTSP` · `MediaMTX`
+
+---
+
+## Otros proyectos destacados
+
+### Servilion
+
+Ecosistema multiplataforma para digitalizar órdenes de trabajo y procesos de empaque, compuesto por:
+
+- API con **Django y Django Ninja**.
+- Aplicación administrativa con **Next.js, React y TypeScript**.
+- Terminal de escritorio para Windows con **Electron**.
+- Procesamiento asíncrono mediante **Celery y Redis**.
+- Integración tipada mediante **OpenAPI**.
+- PostgreSQL, Docker, JWT y almacenamiento en AWS S3.
+
+[Backend](https://github.com/HowLonely/servilion-backend) · [Web](https://github.com/HowLonely/servilion-web) · [Desktop](https://github.com/HowLonely/servilion-desktop)
+
+### Plataforma de Control de Flota
+
+Aplicación Full Stack para centralizar la gestión y seguimiento de vehículos, desarrollada con un backend en Python y una interfaz web en TypeScript.
+
+[Backend](https://github.com/HowLonely/backend-control-flota) · [Frontend](https://github.com/HowLonely/frontend-control-flota)
+
+### Importador de órdenes de trabajo
+
+Microservicio construido con FastAPI para procesar archivos Excel dinámicos e importar órdenes de trabajo a una plataforma empresarial.
+
+[Repositorio](https://github.com/HowLonely/controlworldms-excel-importer-service)
+
+---
+
+## Stack tecnológico
+
+### Industrial IoT
+
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)
+![Node-RED](https://img.shields.io/badge/Node--RED-8F0000?style=flat-square&logo=nodered&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-000000?style=flat-square&logo=espressif&logoColor=white)
+![Arduino](https://img.shields.io/badge/4–20_mA-00878F?style=flat-square&logo=arduino&logoColor=white)
+
+### Backend
+
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-
-**`-rwxr-xr-x  ./frameworks/*`**
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
-**`-rwxr-xr-x  ./devops/*`**
+### Frontend y escritorio
 
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+### Datos e infraestructura
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-**`-rwxr-xr-x  ./ai-ml/*`**
-
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-
-</div>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=00FF41&height=2&section=header" width="100%" />
-</p>
-
-### `[root@howlonely]# cat /var/log/active-projects.log`
+---
 
 <div align="center">
-  <img src=".github/assets/controlworldms_showcase.svg" width="100%" />
-</div>
+
+### Actualmente
+
+Construyendo soluciones que conectan **operaciones, instrumentación y software** para mejorar la visibilidad y toma de decisiones en minería.
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HowLonely&layout=compact&theme=github_dark&hide_border=true" alt="Lenguajes más utilizados" />
 
 <br />
 
-<div align="center">
-  <img src=".github/assets/fleetcontrol_showcase.svg" width="100%" />
-</div>
-
-<div align="center">
-
-[![Backend](https://img.shields.io/badge/repo--backend-00FF41?style=flat-square&logo=github&logoColor=black)](https://github.com/HowLonely/backend-control-flota) [![Frontend](https://img.shields.io/badge/repo--frontend-00FF41?style=flat-square&logo=github&logoColor=black)](https://github.com/HowLonely/frontend-control-flota)
-
-</div>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=00FF41&height=2&section=header" width="100%" />
-</p>
-
-### `[root@howlonely]# git log --streak`
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=HowLonely&background=0d1117&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=555555&fire=00FF41&ring=00FF41&stroke=00FF41&hide_border=true&border_radius=12" />
-
-</div>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=00FF41&height=2&section=header" width="100%" />
-</p>
-
-### `[root@howlonely]# history --graph`
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=HowLonely&bg_color=0d1117&color=00FF41&line=00FF41&point=FFFFFF&area=true&area_color=00FF41&hide_border=true&radius=12" width="100%" />
-
-</div>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=00FF41&height=2&section=header" width="100%" />
-</p>
-
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=HowLonely&style=flat-square&color=00FF41&label=intrusions+detected" />
-
-
-<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=HowLonely&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true" width="100%" alt="Gráfico de actividad" />
 
 </div>
