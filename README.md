@@ -16,7 +16,7 @@ Diseño soluciones que conectan **instrumentación industrial, telemetría y sof
 
 ## Sobre mí
 
-Soy Ingeniero de Software y actualmente me desempeño como **Líder Técnico de Investigación y Desarrollo**, trabajando en soluciones de **Industrial IoT, adquisición de datos y plataformas operacionales para minería**.
+Soy Ingeniero de Software y actualmente me desempeño como **Líder Técnico de Innovación y Desarrollo**, trabajando en soluciones de **Industrial IoT, adquisición de datos y plataformas operacionales para minería**.
 
 Mi experiencia combina desarrollo Full Stack, integración de equipos industriales, diseño de dispositivos con ESP32, señales 4–20 mA, MQTT, Node-RED y construcción de plataformas empresariales. Trabajo desde la captura del dato en terreno hasta su procesamiento, almacenamiento, análisis y visualización.
 
