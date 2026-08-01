@@ -52,13 +52,14 @@ Como parte del proyecto, diseñé una solución basada en **ESP32** capaz de con
 
 ## Otros proyectos destacados
 
-### Servilion
+### Sistema de Gestión para Lavandería Industrial
 
-Ecosistema multiplataforma para digitalizar órdenes de trabajo y procesos de empaque, compuesto por:
+Ecosistema multiplataforma para digitalizar y centralizar el flujo operacional de una lavandería industrial, desde la recepción de órdenes de trabajo hasta el procesamiento, control y empaque de prendas:
 
 - API con **Django y Django Ninja**.
 - Aplicación administrativa con **Next.js, React y TypeScript**.
-- Terminal de escritorio para Windows con **Electron**.
+- Terminal de escritorio para digitalización de órdenes de trabajo y procesos de empaque con **Electron**.
+- Identificación y trazabilidad mediante códigos QR.
 - Procesamiento asíncrono mediante **Celery y Redis**.
 - Integración tipada mediante **OpenAPI**.
 - PostgreSQL, Docker, JWT y almacenamiento en AWS S3.
